@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    font-size: 17px;
+    width: 100vw;
+}
+#root{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.cards{
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.card{
+    background-color: whitesmoke;
+    color: black;
+    flex: 1 1 10em;
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+    gap: 13px;
+    border-radius: 4px;
+}
+
+.card h2{
+    font-size: 13px;
+}
